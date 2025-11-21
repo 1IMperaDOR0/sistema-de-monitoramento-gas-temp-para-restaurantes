@@ -1,0 +1,200 @@
+[
+    {
+        "id": "09b1deaac9b95b5c",
+        "type": "tab",
+        "label": "Fluxo 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "43423be5b3843722",
+        "type": "mqtt in",
+        "z": "09b1deaac9b95b5c",
+        "name": "",
+        "topic": "topico_wokwi_gas",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8ff9c30088367281",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [
+                "ac5199a83f6ae8db",
+                "68a37373818b8da7"
+            ]
+        ]
+    },
+    {
+        "id": "ac5199a83f6ae8db",
+        "type": "debug",
+        "z": "09b1deaac9b95b5c",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "cf9ffbbd8e9dee62",
+        "type": "mqtt in",
+        "z": "09b1deaac9b95b5c",
+        "name": "",
+        "topic": "topico_wokwi_temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8ff9c30088367281",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 180,
+        "wires": [
+            [
+                "607efdb280eb1a6c",
+                "bc1c646f0bd8b41d"
+            ]
+        ]
+    },
+    {
+        "id": "607efdb280eb1a6c",
+        "type": "debug",
+        "z": "09b1deaac9b95b5c",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "68a37373818b8da7",
+        "type": "ui_gauge",
+        "z": "09b1deaac9b95b5c",
+        "name": "",
+        "group": "b4d4811750f96789",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Gás",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4095",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 290,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "bc1c646f0bd8b41d",
+        "type": "ui_gauge",
+        "z": "09b1deaac9b95b5c",
+        "name": "",
+        "group": "b4d4811750f96789",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temp",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 290,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8ff9c30088367281",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b4d4811750f96789",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "242ae4de49d82b7d",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "242ae4de49d82b7d",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4ccc0bd832bda902",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
