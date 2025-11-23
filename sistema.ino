@@ -133,9 +133,9 @@ void loop() {
     digitalWrite(LED_TEMP_AMARELO, HIGH);
   } 
   else {
-    digitalWrite(LED_TEMP_VERDE, LOW);
+    digitalWrite(LED_TEMP_VERDE, HIGH);
     digitalWrite(LED_TEMP_VERMELHO, LOW);
-    digitalWrite(LED_TEMP_AMARELO, HIGH);
+    digitalWrite(LED_TEMP_AMARELO, LOW);
   }
 
   int gas = analogRead(PIN_GAS);  

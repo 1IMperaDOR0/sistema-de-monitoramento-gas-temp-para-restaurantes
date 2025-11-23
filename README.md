@@ -15,7 +15,7 @@ O sistema aciona automaticamente:
 É voltado para segurança preventiva: superaquecimento, vazamento de gás e condições perigosas.
 
 📌 Protótipo desenvolvido na plataforma **Wokwi**:
-👉 [Acesse aqui o projeto](https://wokwi.com/projects/448176249866364929)
+👉 [Acesse aqui o projeto](https://wokwi.com/projects/448373635826729985)
 
 ---
 
