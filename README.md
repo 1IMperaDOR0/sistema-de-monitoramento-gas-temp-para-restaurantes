@@ -60,11 +60,11 @@ topico_wokwi_gas
 
 ### Wokwi
 
-![Dashboard](src/assets/images/wokwi.png)
+![Wokwi](src/assets/images/wokwi.png)
 
 ### Node-RED
 
-![Dashboard](src/assets/images/node-red.png)
+![Node-RED](src/assets/images/node-red.png)
 
 ### Dashboard Node-RED
 
