@@ -60,15 +60,15 @@ topico_wokwi_gas
 
 ### Wokwi
 
-![Wokwi](src/assets/images/wokwi.png)
+![Wokwi](src/assets/images/wokwi.jpg)
 
 ### Node-RED
 
-![Node-RED](src/assets/images/node-red.png)
+![Node-RED](src/assets/images/node-red.jpg)
 
 ### Dashboard Node-RED
 
-![Dashboard](src/assets/images/dashboard.png)
+![Dashboard](src/assets/images/dashboard.jpg)
 
 *(Gauges para gás e temperatura, baseados nos tópicos MQTT.)*
 
@@ -128,9 +128,9 @@ topico_wokwi_gas
 ├── src
 │   └── assets
 │       └── images
-│           └── dashboard.png 
-│           └── node-red.png 
-│           └── wokwi.png 
+│           └── dashboard.jpg 
+│           └── node-red.jpg 
+│           └── wokwi.jpg 
 └── README.md
 ```
 
